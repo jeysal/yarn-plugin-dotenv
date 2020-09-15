@@ -1,6 +1,7 @@
 {
   "name": "yarn-plugin-dotenv",
   "version": "0.1.1",
+  "license": "MIT",
   "main": "index.ts",
   "files": [
     "index.ts",
