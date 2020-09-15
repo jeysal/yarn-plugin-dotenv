@@ -1,7 +1,11 @@
 {
   "name": "yarn-plugin-dotenv",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "index.ts",
+  "files": [
+    "index.ts",
+    "bundles"
+  ],
   "scripts": {
     "build": "builder build plugin && yarn plugin import ./bundles/@yarnpkg/plugin-dotenv.js",
     "test": "node ./test.js"
