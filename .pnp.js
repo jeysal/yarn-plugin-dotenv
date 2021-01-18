@@ -37,10 +37,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
+            ["@types/find-config", "npm:1.0.0"],
             ["@types/node", "npm:14.10.2"],
             ["@yarnpkg/builder", "virtual:a356b4ef7872648be58d3cabbbcd8d6127574b73601db1779a9d0f4072d7b953eba47bad00e8391128202429e8e3f39340acd7a52961e367073601bcf23b3a58#npm:2.1.1"],
             ["@yarnpkg/core", "npm:2.2.2"],
             ["dotenv", "npm:8.2.0"],
+            ["find-config", "npm:1.0.0"],
             ["typescript", "patch:typescript@npm%3A3.9.7#builtin<compat/typescript>::version=3.9.7&hash=5b02a2"]
           ],
           "linkType": "SOFT",
@@ -417,6 +419,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-estree-npm-0.0.45-71d6bd2510-9d339cbcf2.zip/node_modules/@types/estree/",
           "packageDependencies": [
             ["@types/estree", "npm:0.0.45"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@types/find-config", [
+        ["npm:1.0.0", {
+          "packageLocation": "./.yarn/cache/@types-find-config-npm-1.0.0-ed624e63ab-d66c78e3dd.zip/node_modules/@types/find-config/",
+          "packageDependencies": [
+            ["@types/find-config", "npm:1.0.0"]
           ],
           "linkType": "HARD",
         }]
@@ -2193,6 +2204,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["find-config", [
+        ["npm:1.0.0", {
+          "packageLocation": "./.yarn/cache/find-config-npm-1.0.0-4ba758cba6-69b36bbc8b.zip/node_modules/find-config/",
+          "packageDependencies": [
+            ["find-config", "npm:1.0.0"],
+            ["user-home", "npm:2.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["find-up", [
         ["npm:3.0.0", {
           "packageLocation": "./.yarn/cache/find-up-npm-3.0.0-a2d4b1b317-c5422fc723.zip/node_modules/find-up/",
@@ -3227,6 +3248,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["os-homedir", [
+        ["npm:1.0.2", {
+          "packageLocation": "./.yarn/cache/os-homedir-npm-1.0.2-01f82faa88-725256246b.zip/node_modules/os-homedir/",
+          "packageDependencies": [
+            ["os-homedir", "npm:1.0.2"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["p-cancelable", [
         ["npm:2.0.0", {
           "packageLocation": "./.yarn/cache/p-cancelable-npm-2.0.0-5f988ffca4-966065f056.zip/node_modules/p-cancelable/",
@@ -4195,6 +4225,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["user-home", [
+        ["npm:2.0.0", {
+          "packageLocation": "./.yarn/cache/user-home-npm-2.0.0-a7b3877168-ba2791a65d.zip/node_modules/user-home/",
+          "packageDependencies": [
+            ["user-home", "npm:2.0.0"],
+            ["os-homedir", "npm:1.0.2"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["util-deprecate", [
         ["npm:1.0.2", {
           "packageLocation": "./.yarn/cache/util-deprecate-npm-1.0.2-e3fe1a219c-73c2b1cf02.zip/node_modules/util-deprecate/",
@@ -4340,10 +4380,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["yarn-plugin-dotenv", "workspace:."],
+            ["@types/find-config", "npm:1.0.0"],
             ["@types/node", "npm:14.10.2"],
             ["@yarnpkg/builder", "virtual:a356b4ef7872648be58d3cabbbcd8d6127574b73601db1779a9d0f4072d7b953eba47bad00e8391128202429e8e3f39340acd7a52961e367073601bcf23b3a58#npm:2.1.1"],
             ["@yarnpkg/core", "npm:2.2.2"],
             ["dotenv", "npm:8.2.0"],
+            ["find-config", "npm:1.0.0"],
             ["typescript", "patch:typescript@npm%3A3.9.7#builtin<compat/typescript>::version=3.9.7&hash=5b02a2"]
           ],
           "linkType": "SOFT",
