@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "build": "builder build plugin && yarn plugin import ./bundles/@yarnpkg/plugin-dotenv.js",
-    "test": "echo run ./test.bash instead"
+    "test": "echo run ./test.bash instead && false"
   },
   "dependencies": {
     "dotenv": "^8.2.0",
