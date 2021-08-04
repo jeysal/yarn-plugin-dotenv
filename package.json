@@ -2,6 +2,10 @@
   "name": "yarn-plugin-dotenv",
   "version": "1.0.1",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeysal/yarn-plugin-dotenv"
+  },
   "main": "index.ts",
   "files": [
     "index.ts",
