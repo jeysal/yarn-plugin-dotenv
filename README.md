@@ -1,6 +1,6 @@
 # yarn-plugin-dotenv
 
-> A [Yarn 2 plugin](https://yarnpkg.com/features/plugins) to initialize all your scripts with [`dotenv`](https://github.com/motdotla/dotenv)
+> A [Yarn 2+ (Berry) plugin](https://yarnpkg.com/features/plugins) to initialize all your scripts with [`dotenv`](https://github.com/motdotla/dotenv)
 
 ## Installation
 
