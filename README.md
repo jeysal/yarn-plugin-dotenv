@@ -1,5 +1,7 @@
 # yarn-plugin-dotenv
 
+NOTE: This plugin has become obsolete, use Yarn builtin [`injectEnvironmentFiles`](https://yarnpkg.com/configuration/yarnrc#injectEnvironmentFiles) instead.
+
 > A [Yarn 2+ (Berry) plugin](https://yarnpkg.com/features/plugins) to initialize all your scripts with [`dotenv`](https://github.com/motdotla/dotenv)
 
 ## Installation
